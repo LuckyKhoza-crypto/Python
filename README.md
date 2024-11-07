@@ -23,3 +23,22 @@ To start using the Expense Tracker CLI, run the following command in your termin
 ```bash
 python main.py <command> [arguments]
 ```
+
+### Examples
+
+#### Add an expense
+```bash
+python main.py add_expense Keyboard 100 8
+```
+
+#### Delete an expense
+```bash
+python main.py delete_expense 1
+```
+
+#### Show summary of October expenses
+```bash
+python main.py summary --month 10
+```
+
+project requirements from: https://roadmap.sh/projects/expense-tracker
